@@ -21,6 +21,16 @@ body {
   font-size: 20px;
 }
 
+a:link, a:visited {
+  color: #b0e4fc;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a:link:active, a:visited:active {
+  color: #83d6fc;
+}
+
 .bsuit {
   background-color: #372638;
   color: #dedede;
