@@ -9,7 +9,7 @@ The link to the site can be found <a href='https://italiancucumber.github.io/sup
 <img src='src/screenshot.PNG' width='500px'>
 
 <b>The guide features 3 categories with menus to any page within the category.</b><br><br>
-<img src='src/screenshot.PNG' width='500px'>
+<img src='src/screenshot1.PNG' width='500px'>
 
 <b>This guide has a header that shows up on each page and is simple to navigate.</b><br><br>
 <img src='src/screenshot2.PNG' width='500px'>
