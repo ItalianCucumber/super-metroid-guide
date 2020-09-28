@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+body {
+    background-color: #201920;
+}
+
+.front {
+  padding: 5px;
+    color: #fff;
+    font-family: Dosis;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.display {
+  padding: 35px;
+  border-top: 35px solid #a3000a;
+  background-color: #302930;
+  color: #fff;
+  font-family: Dosis;
+  font-size: 24px;
+  font-weight: bold;
+  display: table-cell;
+}
+
+.paragraph {
+  font-family: 'Source Sans Pro';
+  color: #d1c8d0;
+}
+
+.heading {
+  float: left;
+  display: inline;
+  color: #d1c8d0;
+  font-size: 30px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Dosis;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+  transition-duration: 0.3s;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  transition-duration: 0.3s;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: #672268;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #911820;
+  width: 100%;
+  vertical-align: middle;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}

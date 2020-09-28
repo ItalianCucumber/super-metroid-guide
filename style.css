@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+body {
+    background-color: #201920;
+}
+
+.front {
+    padding: 30px;
+    color: #fff;
+    font-family: Dosis;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.hparagraph {
+  padding: 75px;
+  text-align: center;
+  color: #fff;
+  font-family: Nunito;
+  font-size: 20px;
+}
+
+.bsuit {
+  background-color: #372638;
+  color: #dedede;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 32px;
+  font-family: Dosis;
+  transition-duration: 0.3s
+}
+
+.active, .bsuit:hover {
+  background-color: #d63bc4;
+}
+
+.bpup {
+  background-color: #372638;
+  color: #dedede;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 32px;
+  font-family: Dosis;
+  transition-duration: 0.3s
+}
+
+.active, .bpup:hover {
+  background-color: #00a242;
+}
+
+.bboss {
+  background-color: #372638;
+  color: #dedede;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 32px;
+  font-family: Dosis;
+  transition-duration: 0.3s
+}
+
+.active, .bboss:hover {
+  background-color: #a3000a;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #372638;
+  font-family: Dosis;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+  transition-duration: 0.3s;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: #672268;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #911820;
+  width: 100%;
+  vertical-align: middle;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: #fff;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #af3a41;
+  color: #fff;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
