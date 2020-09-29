@@ -3,7 +3,7 @@
 ## General info
 <h3><b>This was a guide created for Super Metroid</b></h3>
 
-The link to the site can be found <a href='https://italiancucumber.github.io/super-metroid-guide/' rel='_blank'>here</a>
+The link to the site can be found <a href='https://italiancucumber.github.io/super-metroid-guide/' target='_blank'>here</a>
 
 <b>It has 20 wiki pages with sprites, descriptions and other information that could be useful.</b><br><br>
 <img src='src/screenshot.PNG' width='500px'>
