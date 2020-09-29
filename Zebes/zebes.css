@@ -13,6 +13,11 @@ body {
     font-size: 30px;
 }
 
+ul {
+  list-style-type: circle;
+  font-size: 24px;
+}
+
 .display {
   padding: 35px;
   border-top: 35px solid #0090a3;
